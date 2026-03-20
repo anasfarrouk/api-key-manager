@@ -1,0 +1,4 @@
+#!/bin/bash
+BASEDIR="$(dirname "$(readlink -f "$0")")"
+export PYTHONPATH="$BASEDIR/usr/lib/python3.14/site-packages:$PYTHONPATH"
+exec /usr/bin/python3 "$BASEDIR/usr/bin/apic" "$@"

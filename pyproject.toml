@@ -1,5 +1,5 @@
 [project]
-name = "api-key-manager"
+name = "apic"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
