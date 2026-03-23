@@ -18,7 +18,7 @@ app_dir.mkdir(parents=True, exist_ok=True)
 db_file = str(app_dir / "mybase.db")
 #db_file = os.path.join(os.path.dirname(__file__), 'usr/lib/python3.14/site-packages/utils/mybase.db')
 #os.makedirs(os.path.dirname(db_file), exist_ok=True)
-#open(db_file, 'a').close()
+open(db_file, 'a').close()
 console = Console()
 app = typer.Typer()
 
